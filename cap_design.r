@@ -4,7 +4,7 @@ load(url("http://up2www.com/uploads/c7e0zarrineh.mp3"))
 library(WRSS)
 library(GA)
 
-###---------- constructing Bukan dam and other featres
+###---------- constructing Bukan dam and other features
 Area<-createArea(name='Zerrineh',location='Kurdistan',simulation=list(start='1900-01-01',end='1909-12-01',interval='month'))
 Q<-zarrineh$bukan$timeSeries[,1]
 E<-zarrineh$bukan$timeSeries[,2]
